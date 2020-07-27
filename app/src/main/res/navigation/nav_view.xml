@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_view"
+    app:startDestination="@id/fragmentPriority">
+
+    <fragment
+        android:id="@+id/fragmentPriority"
+        android:name="com.example.interfazgoogle.fragmentPriority"
+        android:label="fragment_priority"
+        tools:layout="@layout/fragment_priority" />
+    <fragment
+        android:id="@+id/fragmentEspacios"
+        android:name="com.example.interfazgoogle.fragmentEspacios"
+        android:label="fragment_espacios"
+        tools:layout="@layout/fragment_espacios" />
+    <fragment
+        android:id="@+id/fragmentCompartidos"
+        android:name="com.example.interfazgoogle.fragmentCompartidos"
+        android:label="fragment_compartidos"
+        tools:layout="@layout/fragment_compartidos" />
+    <fragment
+        android:id="@+id/fragmentArchivos"
+        android:name="com.example.interfazgoogle.fragmentArchivos"
+        android:label="fragment_archivos"
+        tools:layout="@layout/fragment_archivos" />
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fragmentPriority"
+        android:title="Prioridad"
+        android:icon="@drawable/priority"/>
+    <item android:id="@+id/fragmentEspacios"
+        android:title="Espacios"
+        android:icon="@drawable/espacios"/>
+    <item android:id="@+id/fragmentCompartidos"
+        android:title="Compartidos"
+        android:icon="@drawable/compartidos"/>
+    <item android:id="@+id/fragmentArchivos"
+        android:title="Archivos"
+        android:icon="@drawable/archivos"/>
+</menu>
